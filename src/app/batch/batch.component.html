@@ -1,0 +1,5 @@
+<button (click)="getBatch()">Show Batch Details</button>
+<div *ngIf="serviceResponse">
+<p>Batch Name: {{serviceResponse.Batch}}</p>
+<p>Fees: {{serviceResponse.Fees}}</p>
+</div>
